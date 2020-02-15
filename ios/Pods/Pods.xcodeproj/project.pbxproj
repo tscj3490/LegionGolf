@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41DFEEEB99DB57B12B4EDA1D6267C9CB /* Pods-leagionGolf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B354E63982E4348762317BE3AE01F72 /* Pods-leagionGolf-dummy.m */; };
+		45E1F27D032024FE0EDD99D78B2F7742 /* Pods-leagionGolf-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4D455F906DE13C66D23B96756D111D /* Pods-leagionGolf-tvOSTests-dummy.m */; };
+		90A9332AC8184DC997FE0BBD92027DB8 /* Pods-leagionGolf-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815CAD260C1B1967697E318961E9B21B /* Pods-leagionGolf-tvOS-dummy.m */; };
+		AB4721B4B38B6FAA4F42F9D6EFA00D28 /* Pods-leagionGolfTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC080645A9BF9D612C13DCC7350529A6 /* Pods-leagionGolfTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8C5C3AF2AB0BA83254EAD0CEC631E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787B7596450F8440B213B5B5B31EFCCE;
+			remoteInfo = "Pods-leagionGolf-tvOS";
+		};
+		6498113DB4773F0E4D2032F7B5825E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAC94D90F4537045CE98BAEE7923429;
+			remoteInfo = "Pods-leagionGolf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026DB3E72C5C558FF7997DF752AEF88F /* Pods-leagionGolf-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leagionGolf-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		0B8B6D974357CB6A63A1C9756BECA2FF /* Pods-leagionGolf-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leagionGolf-frameworks.sh"; sourceTree = "<group>"; };
+		1201949E36E2B278A2DD5804A03B4EBA /* Pods-leagionGolf-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-leagionGolf-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		175265C24873E402DB8AEE7E7E647D22 /* Pods-leagionGolf-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-leagionGolf-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		175D140D76948B2A80CA53CE9C41C860 /* Pods-leagionGolf-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leagionGolf-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		19839CFC967AFE9D0C384D5180FB1BDD /* Pods-leagionGolf-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leagionGolf-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		1F64A318689D59041453C9CE23103793 /* Pods-leagionGolf-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leagionGolf-resources.sh"; sourceTree = "<group>"; };
+		26646BA025533F2E3B09234AF0A906FA /* Pods-leagionGolf-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leagionGolf-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		2788FEC11F8146F7275E65528605A55A /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenter.framework"; sourceTree = "<group>"; };
+		3972656F69F7AC3A577EDDDAE95136A6 /* Pods-leagionGolfTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leagionGolfTests-resources.sh"; sourceTree = "<group>"; };
+		39E0C8FE49209127FB5C6CD19C669F53 /* Pods-leagionGolfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leagionGolfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E9D9AA3D71DAEE38ABD3DC61902B84B /* Pods-leagionGolf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leagionGolf.debug.xcconfig"; sourceTree = "<group>"; };
+		4B354E63982E4348762317BE3AE01F72 /* Pods-leagionGolf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-leagionGolf-dummy.m"; sourceTree = "<group>"; };
+		4C302B1EB35F5DAE972314EACD5BFF79 /* libPods-leagionGolf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-leagionGolf.a"; path = "libPods-leagionGolf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCCFCDD6AAD996F9D9006A9055413B6 /* Pods-leagionGolf-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-leagionGolf-acknowledgements.plist"; sourceTree = "<group>"; };
+		60360821E297561DF2E1C8FD21520119 /* Pods-leagionGolf-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leagionGolf-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66FDE8BD8CFFF7F9E330AC716F8CCE79 /* RNMobileCenterShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNMobileCenterShared.framework; path = RNMobileCenterShared/RNMobileCenterShared.framework; sourceTree = "<group>"; };
+		6CCD198C71E626226D0B628EACC29233 /* Pods-leagionGolf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leagionGolf.release.xcconfig"; sourceTree = "<group>"; };
+		71041FDA861D89D05CE388D15980646E /* Pods-leagionGolfTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-leagionGolfTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		747B5C2702804EC8F48434A5D21D3A99 /* Pods-leagionGolf-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-leagionGolf-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D017320C25A40027FFB1E5DD9D468C3 /* Pods-leagionGolf-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leagionGolf-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		815CAD260C1B1967697E318961E9B21B /* Pods-leagionGolf-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-leagionGolf-tvOS-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98F25D7EF5D3C643BF985DFF588BBF94 /* libPods-leagionGolf-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-leagionGolf-tvOS.a"; path = "libPods-leagionGolf-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0A8A7AE470F99265F35182949BF83B /* libPods-leagionGolf-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-leagionGolf-tvOSTests.a"; path = "libPods-leagionGolf-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC080645A9BF9D612C13DCC7350529A6 /* Pods-leagionGolfTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-leagionGolfTests-dummy.m"; sourceTree = "<group>"; };
+		AF4D455F906DE13C66D23B96756D111D /* Pods-leagionGolf-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-leagionGolf-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		B7893CF66385CFD7164ADC9861EE0CA4 /* Pods-leagionGolfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leagionGolfTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4468F047F984AC279FBC1B4795CC27E /* Pods-leagionGolf-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leagionGolf-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		CD4306291577526FB377C444A9E15D2E /* Pods-leagionGolf-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leagionGolf-tvOS-resources.sh"; sourceTree = "<group>"; };
+		D5C7CDE8B6C81556FECA91ECA2F585C1 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
+		D6CADF08320E441A79727B7A582D76C6 /* Pods-leagionGolf-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-leagionGolf-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5D8091F574CA0274AD8C54C7006001E /* libPods-leagionGolfTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-leagionGolfTests.a"; path = "libPods-leagionGolfTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0055A6769958BD263C933901DD6D99 /* Pods-leagionGolfTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-leagionGolfTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F43A5A041F0EF8BAB36A5CFE65634EC4 /* Pods-leagionGolf-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-leagionGolf-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6199D58EB18EAC74C922EDD40097F60 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
+		FF0D97D77A2C3AB5DDC2B3F405A7DCF3 /* Pods-leagionGolfTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leagionGolfTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ACCA82E6C851C558D2618B669FA855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B59578CCC929F77F43E84999E0F4DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B19F4C74FA472014C38F6762E8D45E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51914FB03DC9FB30901B8C51CB3FCA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8F650681EDBD4EE7B75937B83B734E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9532E17AC500601C0B61118C45F8CA53 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20832B854BFF103DE855FA94D1A41715 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0C7ED296E975A70848FE7EB2C455B6 /* Pods-leagionGolf */,
+				86F12F5E6B302FF9A277C62E770D5046 /* Pods-leagionGolf-tvOS */,
+				E64EC93D8443D750117809A46BC3BE4A /* Pods-leagionGolf-tvOSTests */,
+				C5C5839CF19B23185F51B24FAB7CBC90 /* Pods-leagionGolfTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		28867B972BF566EAA38F44D0FDAEC99A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C302B1EB35F5DAE972314EACD5BFF79 /* libPods-leagionGolf.a */,
+				98F25D7EF5D3C643BF985DFF588BBF94 /* libPods-leagionGolf-tvOS.a */,
+				AB0A8A7AE470F99265F35182949BF83B /* libPods-leagionGolf-tvOSTests.a */,
+				E5D8091F574CA0274AD8C54C7006001E /* libPods-leagionGolfTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0C7ED296E975A70848FE7EB2C455B6 /* Pods-leagionGolf */ = {
+			isa = PBXGroup;
+			children = (
+				D6CADF08320E441A79727B7A582D76C6 /* Pods-leagionGolf-acknowledgements.markdown */,
+				5BCCFCDD6AAD996F9D9006A9055413B6 /* Pods-leagionGolf-acknowledgements.plist */,
+				4B354E63982E4348762317BE3AE01F72 /* Pods-leagionGolf-dummy.m */,
+				0B8B6D974357CB6A63A1C9756BECA2FF /* Pods-leagionGolf-frameworks.sh */,
+				1F64A318689D59041453C9CE23103793 /* Pods-leagionGolf-resources.sh */,
+				3E9D9AA3D71DAEE38ABD3DC61902B84B /* Pods-leagionGolf.debug.xcconfig */,
+				6CCD198C71E626226D0B628EACC29233 /* Pods-leagionGolf.release.xcconfig */,
+			);
+			name = "Pods-leagionGolf";
+			path = "Target Support Files/Pods-leagionGolf";
+			sourceTree = "<group>";
+		};
+		64729F3932E7686C42D122B3FA76659C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5C7CDE8B6C81556FECA91ECA2F585C1 /* MobileCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BB62F2734812856D646B1FAE653D67B /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				64729F3932E7686C42D122B3FA76659C /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				BFBE4D750AD608E527628562FD3CE2A3 /* Pods */,
+				28867B972BF566EAA38F44D0FDAEC99A /* Products */,
+				20832B854BFF103DE855FA94D1A41715 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8105DB5B47CAD8C77F1C062E174212B5 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				D4AF3EF24AE5FB6FFCB6E4B61478CB81 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		86F12F5E6B302FF9A277C62E770D5046 /* Pods-leagionGolf-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				F43A5A041F0EF8BAB36A5CFE65634EC4 /* Pods-leagionGolf-tvOS-acknowledgements.markdown */,
+				747B5C2702804EC8F48434A5D21D3A99 /* Pods-leagionGolf-tvOS-acknowledgements.plist */,
+				815CAD260C1B1967697E318961E9B21B /* Pods-leagionGolf-tvOS-dummy.m */,
+				26646BA025533F2E3B09234AF0A906FA /* Pods-leagionGolf-tvOS-frameworks.sh */,
+				CD4306291577526FB377C444A9E15D2E /* Pods-leagionGolf-tvOS-resources.sh */,
+				7D017320C25A40027FFB1E5DD9D468C3 /* Pods-leagionGolf-tvOS.debug.xcconfig */,
+				19839CFC967AFE9D0C384D5180FB1BDD /* Pods-leagionGolf-tvOS.release.xcconfig */,
+			);
+			name = "Pods-leagionGolf-tvOS";
+			path = "Target Support Files/Pods-leagionGolf-tvOS";
+			sourceTree = "<group>";
+		};
+		92FB20EF272686758C16E3413C088C00 /* RNMobileCenterShared */ = {
+			isa = PBXGroup;
+			children = (
+				9A83E2945B877C24308F99246FBEFCF4 /* Frameworks */,
+			);
+			name = RNMobileCenterShared;
+			path = RNMobileCenterShared;
+			sourceTree = "<group>";
+		};
+		9532E17AC500601C0B61118C45F8CA53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2788FEC11F8146F7275E65528605A55A /* MobileCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A83E2945B877C24308F99246FBEFCF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66FDE8BD8CFFF7F9E330AC716F8CCE79 /* RNMobileCenterShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFBE4D750AD608E527628562FD3CE2A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D475BD27B7EA251F3A9187F2B27E749A /* MobileCenter */,
+				92FB20EF272686758C16E3413C088C00 /* RNMobileCenterShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5C5839CF19B23185F51B24FAB7CBC90 /* Pods-leagionGolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0055A6769958BD263C933901DD6D99 /* Pods-leagionGolfTests-acknowledgements.markdown */,
+				71041FDA861D89D05CE388D15980646E /* Pods-leagionGolfTests-acknowledgements.plist */,
+				AC080645A9BF9D612C13DCC7350529A6 /* Pods-leagionGolfTests-dummy.m */,
+				FF0D97D77A2C3AB5DDC2B3F405A7DCF3 /* Pods-leagionGolfTests-frameworks.sh */,
+				3972656F69F7AC3A577EDDDAE95136A6 /* Pods-leagionGolfTests-resources.sh */,
+				39E0C8FE49209127FB5C6CD19C669F53 /* Pods-leagionGolfTests.debug.xcconfig */,
+				B7893CF66385CFD7164ADC9861EE0CA4 /* Pods-leagionGolfTests.release.xcconfig */,
+			);
+			name = "Pods-leagionGolfTests";
+			path = "Target Support Files/Pods-leagionGolfTests";
+			sourceTree = "<group>";
+		};
+		D475BD27B7EA251F3A9187F2B27E749A /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8105DB5B47CAD8C77F1C062E174212B5 /* Analytics */,
+				0C8F650681EDBD4EE7B75937B83B734E /* Core */,
+				7BB62F2734812856D646B1FAE653D67B /* Crashes */,
+			);
+			name = MobileCenter;
+			path = MobileCenter;
+			sourceTree = "<group>";
+		};
+		D4AF3EF24AE5FB6FFCB6E4B61478CB81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6199D58EB18EAC74C922EDD40097F60 /* MobileCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64EC93D8443D750117809A46BC3BE4A /* Pods-leagionGolf-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				175265C24873E402DB8AEE7E7E647D22 /* Pods-leagionGolf-tvOSTests-acknowledgements.markdown */,
+				1201949E36E2B278A2DD5804A03B4EBA /* Pods-leagionGolf-tvOSTests-acknowledgements.plist */,
+				AF4D455F906DE13C66D23B96756D111D /* Pods-leagionGolf-tvOSTests-dummy.m */,
+				C4468F047F984AC279FBC1B4795CC27E /* Pods-leagionGolf-tvOSTests-frameworks.sh */,
+				026DB3E72C5C558FF7997DF752AEF88F /* Pods-leagionGolf-tvOSTests-resources.sh */,
+				60360821E297561DF2E1C8FD21520119 /* Pods-leagionGolf-tvOSTests.debug.xcconfig */,
+				175D140D76948B2A80CA53CE9C41C860 /* Pods-leagionGolf-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-leagionGolf-tvOSTests";
+			path = "Target Support Files/Pods-leagionGolf-tvOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AAC94D90F4537045CE98BAEE7923429 /* Pods-leagionGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506B66FACF17831AF36771B4531B2230 /* Build configuration list for PBXNativeTarget "Pods-leagionGolf" */;
+			buildPhases = (
+				FAD9515D6F7CF8196973C6790E3001E0 /* Sources */,
+				04ACCA82E6C851C558D2618B669FA855 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-leagionGolf";
+			productName = "Pods-leagionGolf";
+			productReference = 4C302B1EB35F5DAE972314EACD5BFF79 /* libPods-leagionGolf.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		58F6BFF79C0FFA84E89C95661D10C817 /* Pods-leagionGolf-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A439388F63DF8C8994F2C81159B04A /* Build configuration list for PBXNativeTarget "Pods-leagionGolf-tvOSTests" */;
+			buildPhases = (
+				9856ABE74E10F114C3461DC1FD128809 /* Sources */,
+				0B59578CCC929F77F43E84999E0F4DA8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E465E1B0CC8AF0F621CAC977FB0309D /* PBXTargetDependency */,
+			);
+			name = "Pods-leagionGolf-tvOSTests";
+			productName = "Pods-leagionGolf-tvOSTests";
+			productReference = AB0A8A7AE470F99265F35182949BF83B /* libPods-leagionGolf-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		787B7596450F8440B213B5B5B31EFCCE /* Pods-leagionGolf-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62476FF43631FDE4F91527C26B6720B4 /* Build configuration list for PBXNativeTarget "Pods-leagionGolf-tvOS" */;
+			buildPhases = (
+				767147B0FF12FBAB4CA764161D8316DE /* Sources */,
+				45B19F4C74FA472014C38F6762E8D45E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-leagionGolf-tvOS";
+			productName = "Pods-leagionGolf-tvOS";
+			productReference = 98F25D7EF5D3C643BF985DFF588BBF94 /* libPods-leagionGolf-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EDD9C2F84B60B96878FA17916E0388AC /* Pods-leagionGolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6363CDDEB8CD5F30DFABE870396C018 /* Build configuration list for PBXNativeTarget "Pods-leagionGolfTests" */;
+			buildPhases = (
+				7F03F7E41907F8E9D305A4D1C72492AB /* Sources */,
+				51914FB03DC9FB30901B8C51CB3FCA3D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28D027B280A71F7C03F6229008095673 /* PBXTargetDependency */,
+			);
+			name = "Pods-leagionGolfTests";
+			productName = "Pods-leagionGolfTests";
+			productReference = E5D8091F574CA0274AD8C54C7006001E /* libPods-leagionGolfTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 28867B972BF566EAA38F44D0FDAEC99A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AAC94D90F4537045CE98BAEE7923429 /* Pods-leagionGolf */,
+				787B7596450F8440B213B5B5B31EFCCE /* Pods-leagionGolf-tvOS */,
+				58F6BFF79C0FFA84E89C95661D10C817 /* Pods-leagionGolf-tvOSTests */,
+				EDD9C2F84B60B96878FA17916E0388AC /* Pods-leagionGolfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767147B0FF12FBAB4CA764161D8316DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A9332AC8184DC997FE0BBD92027DB8 /* Pods-leagionGolf-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F03F7E41907F8E9D305A4D1C72492AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4721B4B38B6FAA4F42F9D6EFA00D28 /* Pods-leagionGolfTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9856ABE74E10F114C3461DC1FD128809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E1F27D032024FE0EDD99D78B2F7742 /* Pods-leagionGolf-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD9515D6F7CF8196973C6790E3001E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFEEEB99DB57B12B4EDA1D6267C9CB /* Pods-leagionGolf-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28D027B280A71F7C03F6229008095673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-leagionGolf";
+			target = 0AAC94D90F4537045CE98BAEE7923429 /* Pods-leagionGolf */;
+			targetProxy = 6498113DB4773F0E4D2032F7B5825E65 /* PBXContainerItemProxy */;
+		};
+		9E465E1B0CC8AF0F621CAC977FB0309D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-leagionGolf-tvOS";
+			target = 787B7596450F8440B213B5B5B31EFCCE /* Pods-leagionGolf-tvOS */;
+			targetProxy = 3F8C5C3AF2AB0BA83254EAD0CEC631E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D844D485501EF85815A38DB563E9D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9D9AA3D71DAEE38ABD3DC61902B84B /* Pods-leagionGolf.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE2E81DCE88DEE2434295E52A286CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60360821E297561DF2E1C8FD21520119 /* Pods-leagionGolf-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		3B218C16F5FA12A47A7CBC31A71F67B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175D140D76948B2A80CA53CE9C41C860 /* Pods-leagionGolf-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50DA1091A4D23B44015D1BFB99DCA730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7893CF66385CFD7164ADC9861EE0CA4 /* Pods-leagionGolfTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79CD0110614CD61CB9A2E2ADDE127081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E0C8FE49209127FB5C6CD19C669F53 /* Pods-leagionGolfTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ED8AB9560252BD6D031C1844756A257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		7F371211FD84BAA2033C1AE23B1F3119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCD198C71E626226D0B628EACC29233 /* Pods-leagionGolf.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89D2B779DFD70EE8024119DE96174C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19839CFC967AFE9D0C384D5180FB1BDD /* Pods-leagionGolf-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B9CEA3091AB7986F6073CD1E5DF67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		F3E13CE5371A4B10067EFE67018B483D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D017320C25A40027FFB1E5DD9D468C3 /* Pods-leagionGolf-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A439388F63DF8C8994F2C81159B04A /* Build configuration list for PBXNativeTarget "Pods-leagionGolf-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE2E81DCE88DEE2434295E52A286CFC /* Debug */,
+				3B218C16F5FA12A47A7CBC31A71F67B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B9CEA3091AB7986F6073CD1E5DF67C /* Debug */,
+				7ED8AB9560252BD6D031C1844756A257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506B66FACF17831AF36771B4531B2230 /* Build configuration list for PBXNativeTarget "Pods-leagionGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D844D485501EF85815A38DB563E9D4E /* Debug */,
+				7F371211FD84BAA2033C1AE23B1F3119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62476FF43631FDE4F91527C26B6720B4 /* Build configuration list for PBXNativeTarget "Pods-leagionGolf-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E13CE5371A4B10067EFE67018B483D /* Debug */,
+				89D2B779DFD70EE8024119DE96174C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6363CDDEB8CD5F30DFABE870396C018 /* Build configuration list for PBXNativeTarget "Pods-leagionGolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CD0110614CD61CB9A2E2ADDE127081 /* Debug */,
+				50DA1091A4D23B44015D1BFB99DCA730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

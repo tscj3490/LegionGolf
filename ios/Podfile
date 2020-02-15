@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'leagionGolf' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for leagionGolf
+  pod 'MobileCenter/Crashes', '~> 0.14.1'
+  pod 'RNMobileCenterShared', '~> 0.11.2'
+  pod 'MobileCenter/Analytics', '~> 0.14.1'
+
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  target 'leagionGolfTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'leagionGolf-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for leagionGolf-tvOS
+
+  target 'leagionGolf-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,19 @@
+
+export const theme = 'rgb(92,179,39)';
+export const rateTheme1 = 'rgb(101,99,164)';
+export const rateTheme2 = 'rgb(80,210,194)';
+export const rateTheme3 = 'rgb(213,103,205)';
+//export const theme = 'rgb(67, 164, 34)';
+export const lightTheme = 'rgba(92,187,94, 0.5)'
+export const background = 'rgb(242, 242, 244)'
+export const menu = 'white';
+export const normalText = 'rgb(58,58,72)'
+export const menuRight = 'rgb(205, 205, 211)'
+export const menuBorder = 'rgb(169,169,171)'
+export const borderColor = 'rgb(217,217,222)'
+export const textColor1 = 'rgb(157, 157, 163)'
+export const textColor2 = 'rgb(107, 107, 118)'
+export const textColor3 = 'rgb(178, 178, 186)'
+export const placeholderText = 'rgb(158,158,164)';
+export const header = 'black'
+export const lineBetween = '#d8d8da'
